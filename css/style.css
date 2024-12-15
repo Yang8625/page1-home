@@ -1,0 +1,265 @@
+container {
+    width: 100vw; 
+    height: auto;
+}
+
+section {
+    position: relative; 
+}
+
+@font-face{
+    font-family: JosefinSans-variableFont;
+    src: url(../fonts/JosefinSans-VariableFont_wght.ttf);
+
+}
+
+@font-face{
+    font-family: Jura-VariableFont;
+    src: url(../fonts/Jura-VariableFont_wght.ttf);
+}
+
+.top-nav{
+    font-family: JosefinSans-VariableFont;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+/*.Polygon2{
+    width: 100vx;
+    height: 100vh;
+    background: url("../images/Polygon2.SVG");
+}*/
+
+.rectangle {
+    width: 100vw;
+    height: 200px;
+    background: #FF93AE;
+    top: 890px;
+    left: 860px;
+}
+
+.wrapper{
+    width: 100vw;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.wrapper-background {
+    width: 100%;
+    height: 100%;
+    background: url("../images/Pastel.jpg") no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 70px;
+    left: 0px;
+}
+
+.figure {
+    position: absolute;
+    left: 49.5%;
+    top: 50px;
+    transform: translateX(-50%);
+}
+
+
+.top-nav{
+    width: 680px;
+    height: 60px;
+    position: absolute;
+    left: 50%;
+    top: 30px;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.top-nav ul li{
+    float: Right; 
+}
+a {
+display: block;
+color: white;
+text-decoration: none;
+padding: 14px 16px;
+float: left;
+}
+
+.top-nav-container {
+    width: 2100px;
+    height: 100px;
+    background-color: #FF93AE;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+}
+
+.Hover-box{
+    background-color: #4E83F5;
+}
+
+.About{
+    width: 100vw;
+    height: 100vh;
+    background-color: #FF93AE;
+    position: relative;
+}
+
+.home {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.Creatia{
+    font-family: JosefinSans-variableFont;
+    font-size: 5em;
+    color: #EE3966;
+    position: absolute;
+    top: 890px;
+    left: 830px;
+}
+
+.Create{
+    font-family: Jura-VariableFont;
+    font-size: 24px;
+    color: #EE3966;
+    position: absolute;
+    top: 960px;
+    left: 860px;
+}
+
+.Poly1{
+    width: 100px;
+    height: 100px;
+    background: url("../images/Poly1.png");
+}
+
+.Info{
+    width: 100vw;
+    height: 100vh;
+    background-color: #FF93AE ;
+}
+
+.CREATIA2{
+    font-family: JosefinSans-variableFont;
+    font-size: 5em;
+    color: #EE3966;
+    position: relative;
+    top: 300px;
+    left: 830px;
+}
+
+.AnimeDetour{
+    font-family: Jura-VariableFont;
+    font-size: 24px;
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    color: #F7F7F7;
+    position: relative;
+    top: 300px;
+    left: 700px;
+}
+
+.Event{
+    font-family: JosefinSans-VariableFont;
+    font-size:20px;
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    color: #F7F7F7;
+    position: relative;
+    top: 0px;
+    left: 700px;
+    z-index: 1;
+
+}
+
+.Txt{
+    font-family: JosefinSans-VariableFont;
+    font-size: 20px;
+    font-weight: 200;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    color: #f7f7f7;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+ 
+}
+
+
+}
+.poly_left {
+    width: 483px;
+    height: 400px
+    position: absolute;
+}
+
+.poly_right {
+    display: block;
+    width: 483px;
+    height: auto;
+    position: absolute;
+    left: 200px;
+    top: 0px;
+    margin-left: 1400px;
+   
+}
+
+.poly_right_top{
+    display: block;
+    width: 483px;
+    height: auto;
+    position: absolute;
+    left: 200px;
+    top: 730px;
+    left: 0px;
+}
+
+.poly_left_top{
+    display: block;
+    width: 483px;
+    height: auto;
+    position: absolute;
+    left: 200px;
+    top: 730px;
+    left: 1570px;
+}
+
+/*.rectangle{
+    width: 100vw;
+    height: 100px;
+    background:red ;
+    top: 800px;
+    z-index: 2;
+}
+
+
+/*.poly_left_bottom{
+    display: block;
+    width: 483px;
+    height: auto;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+}
+
+.poly_right_bottom{
+    display: block;
+    width: 483px;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    left: 1565px;
+}
+*/
+.footer{
+    width: 100vw;
+    height: 100vh;
+    background: #FF93AE;
+}
